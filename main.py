@@ -13,7 +13,7 @@ def expense_func():
             expenses[category] += amount
         else:
             expenses[category] = amount
-        print(f"Expense of {amount} added to {category}")
+        print(f"Expense of {amount:.1f} added to {category}")
     except ValueError as e:
         print("Invalid input", e)
 
@@ -23,10 +23,22 @@ def income_func():
     try:
         income_amt = float(input("Enter the amount of income: "))
         income_bal += income_amt
-        print(f"Income of {income_amt} added successfully!")
-        print(f"New income balance is {income_bal}")
+        print(f"Income of {income_amt:.1f} added successfully!")
+        print(f"New income balance is {income_bal:.1f}")
     except ValueError as e:
         print("Invalid input", e)
+
+def summary():
+    total_expenses = sum(expenses.values())
+    overspent = total_expenses - income_bal
+    print("---- Budget Summary ----")
+    print(f"Total income: {income_bal:.1f}")
+    print(f"Total expenses: {total_expenses:.1f}")
+    print("--- expense categories ---")
+        for category, amount in expenses.items():
+            print(f"{category}: {amount:.1f}")
+    if total_expenses > income_bal:
+        print(f"You've overspent by {overspent:.1f}")
 
 
 while True:
