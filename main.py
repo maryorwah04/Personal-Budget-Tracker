@@ -49,3 +49,5 @@ while True:
         income_func()
     elif int(choice) == 3:
         summary()
+    else:
+        print("Invalid choice, select a valid option")
