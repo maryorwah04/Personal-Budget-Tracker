@@ -14,6 +14,12 @@ Simple and intuitive command-line interface
 
 * GitHub: [@maryorwah04](https://github.com/maryorwah04)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/maryorwah04/Linkwarden/issues).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
