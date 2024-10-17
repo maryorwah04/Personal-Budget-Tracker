@@ -3,9 +3,9 @@
 The Personal Budget Tracker is a simple command-line application that helps users manage their income and expenses effectively. It allows users to input income, track expenses by category, and view a summary of their financial status.
 
 # Features
-**Add income and track total income balance**
-**Add expenses categorized by type**
-**View a summary of total income and total expenses**
+**Add income and track total income balance,**
+**Add expenses categorized by type,**
+**View a summary of total income and total expenses,**
 
 ## Authors
 
